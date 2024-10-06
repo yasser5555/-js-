@@ -1,14 +1,25 @@
-// let name = data 
+/*
+! Topics will be revised:
+? data-type & typeof operator 
+? Variable -declaration 
+? template-literals
+? Unary PlusAnd Negation Operators
+? Arithmetic-operators
+? Assignment-operator
+? logical-operators
+? comparison-operator
+? nullish && logical-operators 
+*/ 
 let name = "yasser";
-const numbers = 12345678910;
+const numbers = 12345678910; // can't be changed by Assignment-operatoring
 console.log(name);
 console.log(`my name is "${name}"`);
 name = "ahmed"; // changed value to ahmed by assigment-operator
-console.log(`my name is "${name}"`);
-console.log(`my number is "${numbers}"`);
-let _null= null;
-console.log(typeof _null);
-let Number = "1000000000"; //
+console.log(`my name is "${name}"`); // template-literals
+console.log(`my number is "${numbers}"`); 
+let _null= null; 
+console.log(typeof _null); // typeof 
+let Number = "1000000000";
 console.log(Number);
 // by using urnary condition
 console.log(+Number);
